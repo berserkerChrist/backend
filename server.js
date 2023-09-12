@@ -9,10 +9,9 @@ const routes = require('./router');
 //settings and initializers
 app.set('port', 9000)
 const dbOptions = {
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: 'abc123',
+    host: 'aws.connect.psdb.cloud',
+    user: '08r081j331uosrvm931f',
+    password: 'pscale_pw_k8jM8l0rBdDxd4jKV0MxpQmlJdFMDFWq4kvieUPElIS',
     database: 'yocontigodb'
 };
 
